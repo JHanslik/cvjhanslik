@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+aside {
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+aside h1 {
+    color: bisque;
+}
+aside h2 {
+    color: bisque;
+}
+aside h3 {
+    color: bisque;
+}
+aside .me .photo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    border-radius: 50px;
+    clip-path: circle(90px at 220px 140px );
+}
+aside .me .linkedin {
+    display:flex;
+    float: left;
+    padding-left: 18%;
+}
+aside .me .github {
+    display: flex;
+    float: right;
+    padding-right: 18%;
+}
+
+main {
+
+}
+
+main h2 {
+    background-color: bisque;
+}
