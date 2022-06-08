@@ -22,7 +22,7 @@ aside .me .photo a img {
 }
 aside h1 {
     color: bisque;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     margin: 25px 0 25px 0;
 }
@@ -32,8 +32,14 @@ aside .tel, aside .mail {
     line-height: 25px;
     display: none;
 }
+/* pourquoi devoir écrire les deux */
+aside .responsivecontact {
+    display: flex;
+    justify-content: space-evenly;
+}
 aside .imagetel, aside .imagemail {
-    display: contents;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 aside .me .social {
@@ -42,7 +48,7 @@ aside .me .social {
 }
 aside h2 {
     color: bisque;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     margin: 25px 0 25px 0;
     padding-top: 25px;
@@ -79,6 +85,17 @@ main h3 {
     width: 100%;
 
 }
+main h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+main h5 {
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+main .konexio {
+    text-decoration: none;
+}
 main .school {
     display: flex;
     flex-direction: column;
@@ -106,4 +123,5 @@ main .interetsetloisirs {
 }
 main li {
     margin: 25px 0 25px 0;
+    font-size: 20px;
 }
