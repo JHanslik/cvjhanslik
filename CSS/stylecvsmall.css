@@ -26,14 +26,14 @@ aside h1 {
     font-weight: bold;
     margin: 25px 0 25px 0;
 }
-aside .tel, aside .mail, aside a {
+aside .tel, aside .mail {
     font-size: 18px;
     text-decoration: none;  
     line-height: 25px;
-    /* min-width: 730px; */
+    display: none;
 }
 aside .imagetel, aside .imagemail {
-    display: none;
+    display: contents;
 }
 
 aside .me .social {
