@@ -5,6 +5,9 @@ body {
     display: flex;
 }
 
+
+
+
 aside {
     background-color: black;
     color: white;
@@ -35,10 +38,18 @@ aside .tel, aside .mail, aside a {
 aside .imagetel, aside .imagemail {
     display: none;
 }
-
 aside .me .social {
     display:flex;
     justify-content:space-evenly;
+}
+aside .progressbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+aside .progressbarcss {
+    accent-color: bisque;
+    height: 40px;
 }
 aside h2 {
     color: bisque;
@@ -59,8 +70,11 @@ aside h3 {
 aside p {
     font-size: 18px;
     line-height: 25px;
-
+    margin: 15px 0 15px 0;
 }
+
+
+
 
 main {
     background-color: rgb(252, 244, 234);
