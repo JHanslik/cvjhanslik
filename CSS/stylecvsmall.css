@@ -9,7 +9,7 @@ aside {
     background-color: black;
     color: white;
     padding: 20px;
-    width: 33%;
+    width: 33,33%;
     height:auto;
 }
 aside .me .photo {
@@ -79,7 +79,7 @@ main {
     height: auto;
     font-weight: 600;
     padding: 0 10px 0 10px;
-    width: 67%;
+    width: 66.66%;
 }
 main h3 {
     display: flex;
